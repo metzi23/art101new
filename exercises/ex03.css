@@ -1,0 +1,19 @@
+
+.test-div {
+background: rgb(244, 210, 147);
+padding: 20px;
+margin: 20px;
+}
+ 
+.test-div H2 {
+    font-family: cursive;
+    color: brown}
+
+ .test-div .special {
+    background: pink }
+
+    #house {
+        display: flex;
+    }
+
+    #house DIV {width: 400px;}
