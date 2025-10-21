@@ -53,3 +53,25 @@ p {font-size: 102%}
     position: absolute;
     bottom: -100px;
     left: 50px;}
+
+#next-episode {
+    background-color: #fff8dc;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 60%;
+    font-family: Georgia, serif;
+    font-size: 1.2; 
+}
+.yellow{
+    position: absolute;
+    bottom: -250px;
+    right: 550px;
+    background-color: rgba(236, 230, 230, 0.431);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:350px;
+    height:100px;  
+}

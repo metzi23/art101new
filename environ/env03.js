@@ -1,0 +1,16 @@
+//declaring an array with name nextEpisode
+let nextEpisode = {
+    title: "On the next episode of Jerry's Adventures...",
+    teaser: "Jerry finds himself face to face with a sabertooth tiger and uncharted territory"
+};
+
+//append the box to the bottom of page (after everything on top)
+$(document).ready( function() {
+    $(".yellow").append (`
+        <div id="nextEpisode">
+            <h3>${nextEpisode.title}</h3>
+            <p>${nextEpisode.teaser}</p>
+        </div>
+    `);
+    });
+
