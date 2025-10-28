@@ -1,0 +1,77 @@
+BODY { background: rgb(255, 226, 157); padding: 100px; color: rgb(0, 0, 0); text-align: center; }
+H2 {color: rgb(255, 0, 0); font-family: cursive}
+H2 {text-align: center;}
+p {font-size: 102%}
+#jerry {
+    position: absolute;
+    width: 110px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-color:black;
+    left: 150px; 
+    bottom: 33px;}
+#dino {
+    position:absolute;
+    width: 300px;
+    border-radius: 20px;
+    right: 870px;
+    border: 2px solid black;
+    bottom: 50px; }
+#bird {
+    position: absolute;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid black;
+    right: 500px;
+    bottom: 45px;}
+#falling {
+    position: absolute;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid black;
+    right: 135px;
+    bottom: 50px;}
+#tiger {
+    position: absolute;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    bottom: -130px;
+    left: 400px; }
+#roar {
+    position: absolute;
+    width: 340px;
+    border-radius: 20px;
+    border: 2px solid black;
+    bottom: -125px}
+#wings {
+    position:absolute;
+    width: 200px;
+    bottom: -155px;
+    right: 95px}
+#green {
+    position: absolute;
+    bottom: -155px;
+    left: 50px;}
+
+#next-episode {
+    background-color: #fff8dc;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 60%;
+    font-family: Georgia, serif;
+    font-size: 1.2; 
+}
+.yellow{
+    position: absolute;
+    bottom: -250px;
+    right: 550px;
+    background-color: rgba(236, 230, 230, 0.431);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:350px;
+    height:100px;  
+}
