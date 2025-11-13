@@ -14,11 +14,19 @@ $(document).ready( function() {
         </div>
     `);
   
- $("#nextBtn").hover(function () {
-    $(this).css("background-color", "#a14d4dff");
-    $(this).css("color", "#fff");
-  });
-   
+ $("#nextbtn").hover(
+  function() {
+    // mouse enters
+    $(this).css({
+      "background-color": "#a14d4dff"
+    });
+  },
+  function() {
+    $(this).css({
+      "background-color": "#deddd7ff"
+    });
+  }
+);
     $("#nextBtn").click (function () {
     window.location.href = "env05_2.html"
     });
