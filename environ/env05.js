@@ -13,6 +13,23 @@ $(document).ready( function() {
             <button id="nextBtn"> Go to Next Epsiode</button>
         </div>
     `);
+  
+    // NEXT EPISODE BUTTON HOVER
+$("#nextBtn").hover(
+  function() {
+    $(this).css({
+      "background-color": "#a14d4dff",
+      "color": "#fff"
+    });
+  },
+  function() {
+    $(this).css({
+      "background-color": "#d4d5d1ff",
+      "color": "#000"
+    });
+  }
+);
+   
     $("#nextBtn").click (function () {
     window.location.href = "env05_2.html"
     });
@@ -48,22 +65,4 @@ $("#cartoonbtn").hover(
   }
 );
 
-
-// NEXT EPISODE BUTTON HOVER
-$("#nextBtn").hover(
-  function() {
-    // mouse enters
-    $(this).css({
-      "background-color": "#6a994e",
-      "color": "#fff"
-    });
-  },
-  function() {
-    // mouse leaves
-    $(this).css({
-      "background-color": "#a7c957",
-      "color": "#000"
-    });
-  }
-);
 
