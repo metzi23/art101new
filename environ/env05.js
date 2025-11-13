@@ -14,21 +14,10 @@ $(document).ready( function() {
         </div>
     `);
   
-    // NEXT EPISODE BUTTON HOVER
-$("#nextBtn").hover(
-  function() {
-    $(this).css({
-      "background-color": "#a14d4dff",
-      "color": "#fff"
-    });
-  },
-  function() {
-    $(this).css({
-      "background-color": "#d4d5d1ff",
-      "color": "#000"
-    });
-  }
-);
+ $("#nextBtn").hover(function () {
+    $(this).css("background-color", "#a14d4dff");
+    $(this).css("color", "#fff");
+  });
    
     $("#nextBtn").click (function () {
     window.location.href = "env05_2.html"
