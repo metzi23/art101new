@@ -32,3 +32,38 @@ if (myAudio.paused) {
     $(this).html("Press me");
 }
 });
+
+// AUDIO BUTTON HOVER
+$("#cartoonbtn").hover(
+  function() {
+    // mouse enters
+    $(this).css({
+      "background-color": "#ffecbf"
+    });
+  },
+  function() {
+    $(this).css({
+      "background-color": "#efeee8"
+    });
+  }
+);
+
+
+// NEXT EPISODE BUTTON HOVER
+$("#nextBtn").hover(
+  function() {
+    // mouse enters
+    $(this).css({
+      "background-color": "#6a994e",
+      "color": "#fff"
+    });
+  },
+  function() {
+    // mouse leaves
+    $(this).css({
+      "background-color": "#a7c957",
+      "color": "#000"
+    });
+  }
+);
+

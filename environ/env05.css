@@ -10,49 +10,49 @@ p {font-size: 102%}
     border: 2px solid black;
     border-color:black;
     left: 150px; 
-    bottom: 33px;}
+    bottom: 15px;}
 #dino {
     position:absolute;
     width: 300px;
     border-radius: 20px;
     right: 870px;
     border: 2px solid black;
-    bottom: 50px; }
+    bottom: 35px; }
 #bird {
     position: absolute;
     width: 350px;
     border-radius: 20px;
     border: 2px solid black;
     right: 500px;
-    bottom: 45px;}
+    bottom: 32px;}
 #falling {
     position: absolute;
     width: 350px;
     border-radius: 20px;
     border: 2px solid black;
     right: 135px;
-    bottom: 50px;}
+    bottom: 45px;}
 #tiger {
     position: absolute;
     width: 300px;
     border-radius: 20px;
     border: 2px solid black;
-    bottom: -130px;
+    bottom: -147px;
     left: 400px; }
 #roar {
     position: absolute;
     width: 340px;
     border-radius: 20px;
     border: 2px solid black;
-    bottom: -125px}
+    bottom: -142px}
 #wings {
     position:absolute;
     width: 200px;
-    bottom: -155px;
+    bottom: -165px;
     right: 95px}
 #green {
     position: absolute;
-    bottom: -155px;
+    bottom: -200px;
     left: 50px;}
 
 #cartoonbtn {
@@ -64,13 +64,11 @@ p {font-size: 102%}
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
-#cartoonbtn:hover {
-  background-color: #ffecbf;}
 
 .yellow {
     position: absolute;
     bottom: -330px;
-    right: 550px;
+    right: 544px;
     background-color: rgba(236, 230, 230, 0.505);
     border-radius: 20px;
     border: 2px solid black;
@@ -81,9 +79,6 @@ p {font-size: 102%}
     height:150px;  
 }  
 
-#nextBtn:hover {
-  background-color: #99524e;
-  color: #fff;}
 
 
 

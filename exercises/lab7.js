@@ -9,3 +9,4 @@ $(".nice-block span").click(function () {
     }
 
 });
+
