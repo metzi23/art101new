@@ -1,0 +1,95 @@
+BODY { background: rgb(255, 226, 157); padding: 100px; color: rgb(0, 0, 0); text-align: center; }
+H2 {color: rgb(255, 0, 0); font-family: cursive}
+H2 {text-align: center;}
+p {font-size: 102%}
+
+#jerry {
+    position: absolute;
+    width: 110px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-color:black;
+    left: 150px; 
+    bottom: 15px;}
+#dino {
+    position:absolute;
+    width: 300px;
+    border-radius: 20px;
+    right: 870px;
+    border: 2px solid black;
+    bottom: 35px; }
+#bird {
+    position: absolute;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid black;
+    right: 500px;
+    bottom: 32px;}
+#falling {
+    position: absolute;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid black;
+    right: 135px;
+    bottom: 45px;}
+#tiger {
+    position: absolute;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    bottom: -147px;
+    left: 400px; }
+#roar {
+    position: absolute;
+    width: 340px;
+    border-radius: 20px;
+    border: 2px solid black;
+    bottom: -142px}
+#wings {
+    position:absolute;
+    width: 200px;
+    bottom: -165px;
+    right: 95px}
+#green {
+    position: absolute;
+    bottom: -200px;
+    left: 50px;}
+
+#cartoonbtn {
+  background-color: #efeee8;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: cursive;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.yellow {
+    position: absolute;
+    bottom: -330px;
+    right: 544px;
+    background-color: rgba(236, 230, 230, 0.505);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:350px;
+    height:150px;  
+}  
+#green {
+  position: absolute;   /* required so it can move */
+}
+
+#tiger2 {
+    position: absolute;
+    width: 200px;
+    left: 150px; 
+    bottom: -80px;}
+
+#jerry2{
+    position: absolute;
+    width: 30px;
+    right: 600px; 
+    bottom: -40px;}
