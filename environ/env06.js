@@ -31,8 +31,6 @@ $(document).ready( function() {
     });
 });
 
-
-
 const myAudio = document.getElementById ('characteraudio');
 myAudio.loop = true;
 
@@ -46,10 +44,8 @@ if (myAudio.paused) {
 }
 });
 
-// AUDIO BUTTON HOVER
 $("#cartoonbtn").hover(
   function() {
-    // mouse enters
     $(this).css({
       "background-color": "#ffecbf"
     });
@@ -62,26 +58,18 @@ $("#cartoonbtn").hover(
 );
 
 function loopTigerPounce() {
-
-  // reset tiger to starting position each loop
   $("#tiger2").css({ left: "-60px" });
-
-  // your pounce animation
   $("#tiger2").animate(
     {
-      left: "400px",    // where he lands
+      left: "400px",
     },
     {
       duration: 6000,
       easing: "swing",
       complete: function () {
-
-        // your shake animation
         $("#tiger2")
           .animate({ left: "580px" }, 100)
           .animate({ left: "600px" }, 100, function () {
-
-            // restart animation after a pause
             setTimeout(loopTigerPounce, 800);
           });
       }
@@ -89,13 +77,9 @@ function loopTigerPounce() {
   );
 }
 
-// start the loop
 loopTigerPounce();
+let jerryFollow = false;
 
-
-let jerryFollow = false; // start NOT following
-
-// move jerry2 only if jerryFollow is true
 $(document).mousemove(function(event) {
   if (jerryFollow) {
     $("#jerry2").css({
@@ -105,7 +89,6 @@ $(document).mousemove(function(event) {
   }
 });
 
-// click anywhere to toggle follow on/off
 $(document).click(function() {
   jerryFollow = !jerryFollow;
 });
