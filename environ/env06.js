@@ -79,6 +79,7 @@ function loopTigerPounce() {
 
 loopTigerPounce();
 let jerryFollow = false;
+let reacted = false;
 
 $(document).mousemove(function(event) {
   if (jerryFollow) {
@@ -86,9 +87,33 @@ $(document).mousemove(function(event) {
       left: event.pageX - 60,
       top: event.pageY - 60
     });
+    
+    let jPos = $("#jerry2").position();
+      $("#output").css({
+        left: jPos.left + 70,  
+        top: jPos.top - 10
+      });
+
+    if(!reacted) {
+      $("#output").html("Jerry: Whoa! Careful");
+      reacted = true;
+    }
   }
 });
 
 $(document).click(function() {
   jerryFollow = !jerryFollow;
+  reacted = false;
+});
+
+$(document).ready(function () {
+
+    let hour = new Date().getHours();
+
+    if (hour >= 18 || hour < 6) {
+        $("body").addClass("night-mode");
+    } else {
+        $("body").addClass("day-mode");
+    }
+
 });
