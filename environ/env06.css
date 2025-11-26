@@ -116,12 +116,12 @@ h1 {
     width: 750px;
     bottom: 2px;
     position: absolute;
-    left: 270px;
+    left: 350px;
 }
 #yay {
     position: absolute;
     bottom: 45px;
-    width: 4%;
+    width: 3%;
 }
 body.day-mode {
     background-color: #f5f5f5; /* normal */
