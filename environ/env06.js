@@ -31,31 +31,31 @@ $(document).ready( function() {
     });
 });
 
-const myAudio = document.getElementById ('characteraudio');
-myAudio.loop = true;
 
-$("#cartoonbtn").click(function () {
-if (myAudio.paused) {
-    myAudio.play ();
-    $(this).html("~Stop Music~");
-} else {
-    myAudio.pause();
-    $(this).html("Press me");
-}
+$(document).ready(function () {
+    const myAudio = document.getElementById('characteraudio');
+    if (!myAudio) {
+        console.log("Audio element not found!");
+        return;
+    }
+
+    myAudio.loop = true;
+
+    $("#cartoonbtn").click(function () {
+        if (myAudio.paused) {
+            myAudio.play().catch(err => console.log("Audio play failed:", err));
+            $(this).html("~Stop Music~");
+        } else {
+            myAudio.pause();
+            $(this).html("Press me");
+        }
+    });
+
+    $("#cartoonbtn").hover(
+        function() { $(this).css("background-color", "#ffecbf"); },
+        function() { $(this).css("background-color", "#efeee8"); }
+    );
 });
-
-$("#cartoonbtn").hover(
-  function() {
-    $(this).css({
-      "background-color": "#ffecbf"
-    });
-  },
-  function() {
-    $(this).css({
-      "background-color": "#efeee8"
-    });
-  }
-);
 
 function loopTigerPounce() {
   $("#tiger2").css({ left: "-60px" });

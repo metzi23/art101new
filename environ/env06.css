@@ -124,7 +124,7 @@ h1 {
     width: 3%;
 }
 body.day-mode {
-    background-color: #f5f5f5; /* normal */
+    background-color: rgb(255, 226, 157); /* normal */
     color: black;
 }
 
